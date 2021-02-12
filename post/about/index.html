@@ -30,26 +30,7 @@
 ..." />
     <meta name="keywords" content="" />
   </head>
-  <!--载入js，在</body>之前插入即可-->
-    <!--Leancloud 操作库:-->
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <!--Valine 的核心代码库-->
-    <script src="/media/scripts/Valine.min.js"></script>
-<div class="comment"></div>
-<script>
-    new Valine({
-        // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
-        av: AV, 
-        el: '.comment',
-	      lang: 'zh-cn',//设置评论语言
-        emoticon_url: 'https://cloud.panjunwen.com/alu',
-  emoticon_list: ["狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","暗地观察.png"],
-  app_id: 'BAJjYA5WLzspHNcNDE8fY1fe-gzGzoHsz',
-  app_key: 'zDFIhIpkwHpcp904qdWnr6hO',
-  placeholder: '评论留言'
-    });
-</script>   
-<body>
+  <body>
     <div id="app" class="main">
 
       <div class="sidebar" :class="{ 'full-height': menuVisible }">
@@ -152,15 +133,25 @@
 
             
 
-<div id="vcomments"></div>
-    <script>
-        new Valine({
-            el: '#vcomments',
-            appId: '<BAJjYA5WLzspHNcNDE8fY1fe-gzGzoHsz>',
-            appKey: '<zDFIhIpkwHpcp904qdWnr6hO>'
-        })
-    </script>
-
+ <!--载入js，在</body>之前插入即可-->
+    <!--Leancloud 操作库:-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <!--Valine 的核心代码库-->
+    <script src="/media/scripts/Valine.min.js"></script>
+<div class="comment"></div>
+<script>
+    new Valine({
+        // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+        av: AV, 
+        el: '.comment',
+	      lang: 'zh-cn',//设置评论语言
+        emoticon_url: 'https://cloud.panjunwen.com/alu',
+  emoticon_list: ["狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","暗地观察.png"],
+  app_id: 'BAJjYA5WLzspHNcNDE8fY1fe-gzGzoHsz',
+  app_key: 'zDFIhIpkwHpcp904qdWnr6hO',
+  placeholder: '评论留言'
+    });
+</script>   
           </div>
 
         </div>

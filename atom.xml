@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bruce-wl.github.io</id>
     <title>Bruce</title>
-    <updated>2021-02-26T12:52:37.709Z</updated>
+    <updated>2021-02-26T12:58:31.219Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bruce-wl.github.io"/>
     <link rel="self" href="https://bruce-wl.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://bruce-wl.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Bruce</rights>
     <entry>
-        <title type="html"><![CDATA[Reflection on *The Glass Castle* ]]></title>
+        <title type="html"><![CDATA[Reflection on The Glass Castle]]></title>
         <id>https://bruce-wl.github.io/post/reflection-on-the-glass-castle/</id>
         <link href="https://bruce-wl.github.io/post/reflection-on-the-glass-castle/">
         </link>
